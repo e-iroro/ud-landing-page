@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+@font-face {
+    font-family: 'suisse_bold';
+    src: url('/assets/fonts/SuisseWorks-Bold-WebTrial.woff2') format('woff2'),
+         url('/assets/fonts/SuisseWorks-Bold-WebTrial.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --fontHeading: 'suisse_bold';
+    --fontParagraph: 'Open Sans', sans-serif;
+}
+
+/* Nav bar */
+.logo{
+    padding-top: 12px;
+}
+
+.header__container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__container > p{
+    padding-top: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+nav{
+    padding: 10px 24px;
+}
+
+.search{
+    margin-top: 10pxx;
+    padding: 16px;
+    width: 500px;
+    border-radius: 42px;
+    box-shadow: none;
+    border: 1px solid black;
+}
+.header__container > button{
+    height: fit-content;
+    font-weight: bolder;
+
+}
+
+#cart_btn{
+    background-color: transparent;
+    border: none;
+    padding: 12px;
+
+}
+
+#sign_up_btn{
+    color: white;
+    background-color: black;
+    padding: 12px;
+
+}
+
+.nav_btn{
+    border: 1px solid black;
+    text-align: center;
+    background-color: white;
+    padding: 12px;
+}
+
+#language_btn{
+    border: 1px solid black;
+    text-align: center;
+    background-color: white;
+    padding: 6px;
+}
+
+/* hero section */
+
+.hero_section{
+    background-image: url(/assets/imgs/udemy-hero.jpg);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    position: relative;
+}
+
+
+.hero_section__container{
+    background-color: white;
+    width: 30%;
+    padding: 14px;
+    padding-top: 20px;
+    margin-left: 80px;
+    margin-top: 72px;
+    position: absolute;
+}
+.hero_section__container > p{
+    line-height: 22px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.hero_section__container > h1{
+    font-family: 'suisse_bold';
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 12px;
+}
+ 
+
