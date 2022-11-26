@@ -58,17 +58,22 @@ nav {
   padding: 12px;
 }
 
-#sign_up_btn {
+.sec_btn {
   color: white;
   background-color: black;
   padding: 12px;
+  font-weight: bolder;
+  font-size: 16px;
+
 }
 
-.nav_btn {
+.pri_btn {
   border: 1px solid black;
   text-align: center;
   background-color: white;
   padding: 12px;
+  font-weight: bolder;
+  font-size: 16px;
 }
 
 #language_btn {
@@ -290,3 +295,42 @@ p {
     display: flex;
     justify-content: space-between;
 }
+
+/* udemy business and instructors */
+.business_and_instructors{
+    padding: 80px 24px;
+}
+.business_and_instructors-container{
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    width: 70%;
+}
+#business-content{
+    width: 40%;
+    line-height: 40px;
+}
+.business_and_instructors-container h1{
+    font-family: var(--fontHeading);
+    font-size: 32px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+.business_and_instructors-container ul{
+    font-family: var(--fontParagraph);
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+
+.img_cont{
+    margin-right: 96px;
+}
+.text_cont{
+    margin-top: 60px;
+}
+.text_cont > p{
+    font-size: 19px;
+    margin-bottom: 20px;
+
+}
+
