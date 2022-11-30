@@ -334,3 +334,61 @@ p {
 
 }
 
+
+/* footer */
+footer {
+    background-color: #1C1D1F;
+    color: white;
+    padding: 40px 24px;
+}
+
+
+#footer_container{
+    display: flex;
+    justify-content: space-between;
+    width: 55%;
+    line-height: 25px;
+    font-family: var(--fontParagraph);
+}
+#footer_container ul{
+    list-style-type: none;
+    font-size: 14px;
+
+}
+#footer_container img{
+    margin-top: 40px;
+}
+
+#footer_btn{
+    float: right;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    padding: 6px ;
+    display: flex;
+    text-align: right;
+    margin-right: 29px;
+    font-size: 16px;
+
+}
+
+#footer_btn p{
+    padding-left: 10px;
+    padding-right: 26px;
+    margin-top: 3px;
+}
+
+#footer_btn span{
+    color: white;
+}
+
+#language{
+    margin-top: 10px;
+}
+
+#copyright{
+    float: right;
+    font-size: 12px;
+    background-color: aqua;
+    padding-bottom: 16px;
+}
